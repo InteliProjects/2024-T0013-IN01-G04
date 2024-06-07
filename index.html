@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!--Cabecalho-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Queimaduras Zero</title>
+
+    <!--CSS-->
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0px;
+      }
+    </style>
+
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+    <!--adicionando a biblioteca phaser-->
+  </head>
+  <body>
+    <!--Cenas do jogo-->
+    <script src="src/cenas/TitleScene.js"></script>
+    <script src="src/cenas/Cutscenes.js"></script>
+    <script src="src/cenas/GameScene.js"></script>
+    <script src="src/cenas/QuizScene.js"></script>
+    <script src="src/cenas/Feedback.js"></script>
+
+    <script src="src/main.js"></script>
+    <!--Logica do jogo-->
+  </body>
+</html>
